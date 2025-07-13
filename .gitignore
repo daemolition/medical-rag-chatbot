@@ -1,0 +1,13 @@
+.venv/
+.env
+Medical_RAG_Chatbot.egg-info/
+<<<<<<< HEAD
+__pycache__
+*.log
+=======
+logs/
+__pychache__
+*.pyc
+*.faiss
+*.pkl
+>>>>>>> 16a58f6 (Final changes)

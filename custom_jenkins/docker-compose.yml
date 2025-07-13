@@ -1,0 +1,10 @@
+services:
+  jenkins-dind:
+    image: jenkins-dind:latest 
+    ports:
+     - 8085:8080 
+     - 50000:50000 
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/srun/docker.sock 
+      - ./jenkins_home:/var/jenkins_ome   
