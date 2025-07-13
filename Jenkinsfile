@@ -1,8 +1,4 @@
 pipeline {
-    environment {
-
-    }
-
     stages {
         stage('Clone Github Repo') {
             steps {
